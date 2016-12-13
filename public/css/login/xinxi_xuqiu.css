@@ -1,0 +1,138 @@
+* {
+  font-family: Heiti SC;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #efeff4;
+}
+.header {
+  height: 30px;
+  padding: 10px;
+  background: #fff;
+}
+.header .xinxi_title {
+  text-align: center;
+  border: 2px solid #ea5404;
+  border-radius: 4px;
+  margin: 0 auto;
+  width: 255px;
+  height: 30px;
+  line-height: 30px;
+  display: flex;
+}
+.header .xinxi_title span {
+  flex: 1;
+  display: block;
+  color: #ea5404;
+  position: relative;
+}
+.header .xinxi_title span:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-right: 1px solid #ea5404;
+  height: 30px;
+}
+.header .xinxi_title span:last-child:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-right: none;
+  height: 30px;
+}
+.xinxi_xq {
+  color: #fff !important;
+  background: #ea5404;
+}
+ul,
+li {
+  list-style: none;
+}
+.xinxi_bd {
+  padding: 15px;
+}
+.xinxi_bd li {
+  background: #fff;
+  border-radius: 6px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  height: 129px;
+}
+.xinxi_bd_top {
+  display: flex;
+  width: 100%;
+  height: 34px;
+  border-bottom: 1px solid #e1e1e1;
+  line-height: 34px;
+}
+.xinxi_bd_type {
+  text-align: center;
+  width: 44px;
+  height: 18px;
+  background: #15b755;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 4px;
+  line-height: 18px;
+  display: inline-block;
+  margin: 8px 5px;
+}
+.xinxi_bd_title {
+  flex: 1;
+}
+.xinxi_bd_middle {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.xinxi_bd_more {
+  border: 2px solid #ececf0;
+  border-radius: 4px;
+  background: #efeff4;
+  width: 83px;
+  height: 23px;
+  display: inline-block;
+  text-align: center;
+  line-height: 23px;
+  font-size: 14px;
+  color: #646464;
+  flex: 1;
+  margin: 10px 0px 5px 0;
+}
+.xinxi_bd_foot {
+  display: flex;
+  text-align: center;
+}
+.xinxi_bd_time {
+  flex: 1;
+  text-align: right;
+  line-height: 42px;
+  font-size: 14px;
+  color: #999;
+}
+.xinxi_bd_timekong {
+  flex: 1;
+}
+.me_bottom_me {
+  width: 21px;
+  height: 21px;
+  background: url("../../img/bottom_nor_icon01@2x.png") no-repeat center !important;
+  background-size: 100% !important;
+  margin: 0 auto;
+}
+.me_bottom_xx {
+  background: url("../../img/bottom_press_icon02@2x.png") no-repeat center !important;
+  background-size: 100% !important;
+}
+.xinxi_bd_jjr {
+  background: #0193e6;
+}
+.xinxi_bd_zs {
+  background: #97b715;
+}
+.xinxi_bd_dls {
+  background: #ea5404;
+}
