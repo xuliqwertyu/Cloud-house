@@ -43,9 +43,9 @@ body {
   border-right: none;
   height: 30px;
 }
-.xinxi_xq {
+.active {
   color: #fff !important;
-  background: #ea5404;
+  background: #ea5404 !important;
 }
 ul,
 li {
@@ -61,6 +61,7 @@ li {
   box-sizing: border-box;
   margin-bottom: 10px;
   height: 129px;
+  box-shadow: 0 0 6px #cecece;
 }
 .xinxi_bd_top {
   display: flex;
