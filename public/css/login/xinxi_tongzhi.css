@@ -119,7 +119,7 @@ li {
   background: #fff;
   border-top: 1px solid #f4f4f5;
   padding: 5px 0px;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   display: flex;
   width: 100%;
