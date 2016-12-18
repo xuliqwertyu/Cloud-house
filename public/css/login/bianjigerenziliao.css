@@ -1,0 +1,180 @@
+* {
+  font-family: Heiti SC;
+  margin: 0;
+  padding: 0;
+}
+.ps_title {
+  color: #000 !important;
+}
+.ps_bd {
+  height: 177px;
+  text-align: center;
+  line-height: 20px;
+  background: #fff;
+  padding-top: 20px;
+  border-bottom: 1px solid #cecece;
+}
+.ps_img {
+  width: 69px;
+  height: 69px;
+  border-radius: 50%;
+  background: url("../../img/persontouxiang.png") no-repeat center;
+  background-size: 100%;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+.ps_nicheng {
+  font-size: 18px;
+}
+.ps_qianming {
+  font-size: 12px;
+  color: #7f7f7f;
+}
+.ps_edit {
+  width: 94px;
+  height: 29px;
+  font-size: 12px;
+  border: none;
+  border: 1px solid #ea5404;
+  background: #fff;
+  border-radius: 4px;
+  color: #ea5404;
+  margin-top: 10px;
+  outline: none;
+}
+ul,
+li {
+  list-style: none;
+}
+.ps_information {
+  min-height: 120px;
+  background: #fff;
+  margin-top: 10px;
+  padding: 0 10px;
+}
+.ps_information li {
+  border-bottom: 1px solid #f2f2f2;
+  font-size: 14px;
+  line-height: 33px;
+  display: flex;
+}
+.ps_information li .ps_term {
+  color: #686868;
+  flex: 2;
+}
+.ps_information li .ps_content {
+  flex: 3;
+}
+.ps_foot {
+  display: flex;
+  padding: 20px 10px;
+  background: #fff;
+}
+.ps_foot_picb {
+  float: left;
+  flex: 1;
+  text-align: center;
+}
+.ps_foot_pic {
+  width: 100px;
+  height: 64px;
+  background: #878787;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+.ps_pic_name {
+  font-size: 12px;
+  color: #7f7f7f;
+}
+body {
+  background: #efeff4;
+}
+.gerenziliao_header {
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 10px;
+}
+.gerenziliao_header .header_left {
+  height: 40px;
+  background: url("../../img/nav_back_icon@2x.png") no-repeat left 15px center;
+  display: inline-block;
+  background-size: 10px 18px;
+  text-align: center;
+  width: 100%;
+  color: #000;
+  line-height: 40px;
+  background-color: #fff;
+  border-bottom: 1px solid #cecece;
+}
+.gerenziliao_content_box {
+  background: #fff;
+}
+ul,
+li {
+  list-style: none;
+}
+.gerenziliao_content_box {
+  padding: 0 10px;
+}
+.gerenziliao_content {
+  height: 39px;
+  border-bottom: 1px solid #f2f2f2;
+  line-height: 39px;
+  display: flex;
+}
+.gerenziliao_content_tx {
+  color: #7a7a7a;
+  width: 130px;
+  font-size: 14px;
+  display: inline-block;
+}
+.gerenziliao_content_neirong {
+  overflow: hidden;
+  flex: 1;
+  font-size: 14px;
+  display: inline-block;
+}
+.gerenziliao_content_jiantou {
+  display: inline-block;
+  width: 40px;
+  background: url("../../img/nav_back_icon@2you.png") no-repeat center;
+  background-size: 8px 14px;
+}
+.gerenziliao_content_touxiang {
+  display: block;
+  width: 39px;
+  height: 39px;
+  background: url("../../img/20160915184656_TrwKP.thumb.700_0.jpeg") no-repeat center;
+  background-size: 100%;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.gerenziliao_tanchuang {
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0 10px;
+  display: none;
+}
+.gerenziliao_tanchuang_child {
+  text-align: center;
+  height: 40px;
+  border-bottom: 1px solid #ecedef;
+  color: #000;
+  line-height: 40px;
+}
+.gerenziliao_tanchuang_child:last-child {
+  color: #e95008;
+  border: none;
+}
+.gerenziliao_content_black {
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.4);
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: none;
+}

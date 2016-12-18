@@ -54,14 +54,6 @@
 	margin-top 15px
 	color #B4B4B4
 	overflow hidden
-.search_pic
-	display inline-block
-	width 13px
-	height 13px
-	background url(../../img/nav_icon_search@2x.png) no-repeat center
-	background-size 100%
-	margin-right 10px
-	vertical-align text-bottom
 .lbt_dian
 	width 7px
 	height 7px
@@ -82,6 +74,17 @@
 		background-size 100%
 .search_tx
 	font-size 14px
+	position relative
+	padding-left 20px
+	&:before
+		content ''
+		width 13px
+		height 13px
+		background url(../../img/nav_icon_search@2x.png) no-repeat center
+		background-size 100%
+		position absolute
+		left 0
+		top 0
 .search_box
 	margin 0 auto
 	width 130px	
@@ -295,3 +298,57 @@
 		border-bottom 1px solid #e0e1e4
 .select_diming:hover
 	color red
+.fabu_background
+	background rgba(0,0,0,0.8)
+	position fixed
+	height 100%
+	width 100%
+	left 0
+	top 0
+	z-index 6
+	display none
+.fabu_foot_box
+	height 0
+	overflow hidden
+	position fixed 
+	bottom 110px
+	z-index 7
+.xuqiu_pic
+	width 95px
+	height 95px
+	border-radius 50%
+	background url(../../img/publish_btn02@2x.png) no-repeat center
+	background-size 94px 94px
+	margin 0 auto
+.xuqiu_tx
+	text-align center
+	color #fff
+	margin-top 8px	
+.fangyuan_pic
+	width 95px
+	height 95px
+	border-radius 50%
+	background url(../../img/publish_btn02@2x.png) no-repeat center
+	background-size 94px 94px
+	margin 0 auto
+.fangyuan_tx
+	text-align center
+	color #fff
+	margin-top 8px	
+.fabu_foot_box
+	display flex
+	width 100%
+.fabu_xuqiu
+	flex 1
+.fabu_fangyuan
+	flex 1	
+.guanbi
+	position fixed
+	left 0
+	bottom 0
+	width 100%
+	height 50px
+	background #242221 url(../../img/publish_close_icon@2x.png) no-repeat center
+	background-size 14px 14px
+	z-index 7	
+	display none

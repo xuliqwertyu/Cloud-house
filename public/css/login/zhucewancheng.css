@@ -1,0 +1,31 @@
+* {
+  font-family: Heiti SC;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #b2b2b2;
+}
+.wancheng_box {
+  background: #fff;
+  border-radius: 6px;
+  width: 270px;
+  height: 110px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -55px;
+  margin-left: -135px;
+}
+.wancheng_neirong {
+  height: 65px;
+  text-align: center;
+  line-height: 65px;
+  border-bottom: 1px solid #ebebee;
+}
+.wancheng_queren {
+  height: 45px;
+  text-align: center;
+  color: #eb5c14;
+  line-height: 45px;
+}

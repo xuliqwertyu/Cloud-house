@@ -158,6 +158,7 @@ startTimeout();
 			$(".first_option_option").addClass("first_option_option_change")
 			$(".first_lbt_box").hide()
 			$(".first_lbt_bg").addClass("first_lbt_bg_change")
+			$("window").scrollY=0
 		}
 		
 	})
@@ -194,6 +195,7 @@ startTimeout();
 		$(".first_option").removeClass("first_option_active")
 		$(".position_box").removeClass("position_box_active")
 	})
+
 })
 
 
