@@ -83,7 +83,7 @@ var nodemon=require('gulp-nodemon')
 	gulp.task('browserSync',['nodemon'],function(){
 		browserSync.init({
 		proxy:{
-			target:'http://127.0.0.1:7777'
+			target:'http://127.0.0.1:16918'
 		},
 		files:['*'],
 		port:9888,

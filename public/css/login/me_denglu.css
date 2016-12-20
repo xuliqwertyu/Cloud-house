@@ -1,0 +1,39 @@
+@import './me.css';
+.me_pic {
+  background: url("../../img/20160915184656_TrwKP.thumb.700_0.jpeg") no-repeat center;
+  border-radius: 50%;
+  background-size: 100%;
+  position: relative;
+}
+.me_pic:after {
+  content: '';
+  width: 18px;
+  height: 18px;
+  background: url("../../img/log-in_member_icon@2x.png") no-repeat center;
+  background-size: 100%;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+.me_bianji {
+  font-size: 12px;
+  height: 30px;
+  color: #cecece;
+  position: relative;
+}
+.me_bianji:after {
+  width: 11px;
+  height: 12px;
+  content: '';
+  position: absolute;
+  background: url("../../img/log-in_edit_icon@2x.png") no-repeat center;
+  background-size: 100%;
+  top: 4px;
+  right: 21px;
+}
+.me_dlorzc {
+  line-height: 20px;
+}
+.me_dlorzc_box {
+  margin-top: 10px;
+}

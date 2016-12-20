@@ -26,8 +26,8 @@ body {
   padding: 0 15px;
   background-color: #fff;
   margin-top: 20px;
-  height: 70px;
-  line-height: 35px;
+  height: 100px;
+  line-height: 50px;
   clear: both;
   border-bottom: 1px solid #cecece;
   border-top: 1px solid #cecece;
@@ -35,7 +35,7 @@ body {
 }
 .srk_input {
   border: none;
-  font-size: 12px;
+  font-size: 14px;
   outline: none;
 }
 .srk_name {
@@ -58,26 +58,28 @@ body {
 }
 .srk_lbox {
   float: left;
-  flex: 1;
 }
 .srk_rbox {
   float: right;
+  flex: 1;
 }
 .srk_geshi {
   display: flex;
   border-bottom: 1px solid #cecece;
 }
 .btn_denglu {
-  width: 250px;
-  height: 32px;
+  width: 100%;
+  height: 43px;
   border-radius: 5px;
   background: #c7c7c7;
   border: none;
   color: #fff;
   margin: 0 auto;
   display: block;
-  margin-top: 45px;
   outline: none;
+}
+.btn_active {
+  background: #ea5404;
 }
 .zhuce_box {
   padding: 0 15px;
@@ -92,4 +94,8 @@ body {
   text-align: right;
   flex: 1;
   color: #646464;
+}
+.btn_denglu_box {
+  padding: 10px;
+  margin-top: 45px;
 }

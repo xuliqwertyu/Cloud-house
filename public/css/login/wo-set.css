@@ -1,0 +1,98 @@
+@import './head.css';
+.set-contain .set-contain-ul-li {
+  margin-top: 10px;
+  background: #fff;
+  height: 50px;
+  line-height: 50px;
+  list-style: none;
+  display: flex;
+  position: relative;
+}
+.set-contain .set-contain-ul-li:last-child .set-contain-li-left {
+  position: absolute;
+  left: 50%;
+  margin-left: -32px;
+}
+.set-contain .set-contain-ul-li .set-contain-li-left .set-contain-ul-li-left {
+  margin-left: 10px;
+}
+.set-contain .set-contain-ul-li .set-contain-li-right {
+  flex: 1;
+  text-align: right;
+}
+.set-contain .set-contain-ul-li .set-contain-li-right .set-contain-li-right-prayer {
+  margin-right: 40px;
+  color: #b7b7b7;
+  font-size: 12px;
+}
+.set-contain .set-contain-ul-li .set-contain-li-right .set-contain-ul-li-right {
+  background: #ea5404;
+  margin-top: -15px;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  width: 50px;
+  height: 30px;
+  border-radius: 25px;
+}
+.set-contain .set-contain-ul-li .set-contain-li-right .set-contain-ul-li-right .round {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  left: 1px;
+  top: 0;
+  transition: 0.5s;
+  z-index: 3;
+}
+.set-contain .set-contain-ul-li .set-contain-li-right .set-contain-ul-li-shapes {
+  background: url("../img/house/i/login_right_icon@2x.png") center no-repeat;
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  margin-top: -15px;
+  top: 50%;
+  right: 1%;
+  background-size: 30%;
+}
+.absolute {
+  position: absolute;
+  background: rgba(180,180,180,0.6);
+  width: 100%;
+  display: none;
+  height: 100%;
+  z-index: 2;
+}
+.absolute .absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -132px;
+  margin-top: -55px;
+  border-radius: 10px;
+  width: 275px;
+  height: 110px;
+  background: #fff;
+  text-align: center;
+}
+.absolute .absolute-center .absolute-center-top {
+  height: 65px;
+  line-height: 65px;
+  font-size: 14px;
+  border-bottom: 1px solid #ebebee;
+}
+.absolute .absolute-center .absolute-center-bottom {
+  display: flex;
+  height: 45px;
+  line-height: 45px;
+}
+.absolute .absolute-center .absolute-center-bottom .absolute-center-bottom-left {
+  flex: 1;
+  border-right: 1px solid #ebebee;
+  color: #7e7e7e;
+}
+.absolute .absolute-center .absolute-center-bottom .absolute-center-bottom-right {
+  flex: 1;
+  color: #ea5404;
+}

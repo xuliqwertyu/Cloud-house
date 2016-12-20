@@ -1,0 +1,144 @@
+@import './login.css';
+@import './fabuxuqiu.css';
+.header_left {
+  color: #000 !important;
+}
+.yuyuexiangqing_title {
+  height: 33px;
+  color: #b5b5b6;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 12px;
+}
+.yuyuexiangqing_yyr {
+  padding: 10px 0 10px 10px;
+  background: #fff;
+  display: flex;
+  border-bottom: 1px solid #e3e3e8;
+}
+.yyr_pic {
+  width: 40px;
+  height: 40px;
+  background: url("../../img/content_img_user@2x.png") no-repeat center;
+  background-size: 100%;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.yyr_tx {
+  flex: 1;
+  line-height: 20px;
+}
+.yyr_call {
+  width: 62px;
+  height: 40px;
+  background: url("../../img/content_icon_call@2x.png") no-repeat center;
+  background-size: 18px;
+  position: relative;
+}
+.yyr_call:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 5px;
+  height: 30px;
+  border-left: 1px solid #f0f0f0;
+}
+.yyr_name {
+  font-size: 14px;
+}
+.yyr_type {
+  font-size: 12px;
+  color: #7e7e7e;
+}
+.yuyuexiangqing_xinxi {
+  padding: 10px 0 10px 10px;
+  background: #fff;
+  border-bottom: 1px solid #e3e3e8;
+}
+.yuyue_didian {
+  font-size: 14px;
+}
+.yuyue_xinxi_tx {
+  display: flex;
+  margin-top: 3px;
+}
+.yuyue_xinxi_tx_box {
+  font-size: 12px;
+  flex: 1;
+  color: #727272;
+  line-height: 16px;
+}
+.yuyuexiangqing_time {
+  padding: 10px;
+  background: #fff;
+  border-bottom: 1px solid #e3e3e8;
+  font-size: 14px;
+}
+.yuyuexiangqing_jiedan_box {
+  padding: 10px;
+  margin-top: 10px;
+}
+.yuyuexiangiqng_btn {
+  color: #fff;
+  background: #ea5404;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  height: 44px;
+  font-size: 16px;
+}
+.zhuangtai_box {
+  padding: 5px 10px 0px 10px;
+  background: #fff;
+}
+.yuyuexiangqing_zhuangtai {
+  display: flex;
+  height: 44px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.yuyuexiangqing_zhuangtai:last-child {
+  border: none;
+}
+.time_riqi {
+  font-size: 14px;
+  text-align: center;
+  line-height: 22px;
+}
+.time_date {
+  text-align: center;
+  font-size: 10px;
+  flex: 1;
+}
+.zhuangtai_t {
+  line-height: 44px;
+  text-align: right;
+  font-size: 14px;
+  flex: 1;
+}
+.dingdanxiangqing_foot {
+  display: flex;
+}
+.dingdanxiangqing_foot_box {
+  position: absolute;
+  height: 50px;
+  border-top: 1px solid #f0f0f0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+}
+.foot_btn {
+  flex: 1;
+  color: #ea5404;
+  text-align: center;
+  line-height: 50px;
+  position: relative;
+}
+.foot_btn:after {
+  content: '';
+  position: absolute;
+  border-right: 1px solid #f0f0f0;
+  right: 0;
+  top: 0;
+  height: 50px;
+}

@@ -1,0 +1,64 @@
+@import './head.css';
+.about-contain {
+  height: 220px;
+  position: relative;
+}
+.about-contain .about-contain-img {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  left: 50%;
+  margin-left: -60px;
+  top: 50%;
+  margin-top: -60px;
+  background: url("../img/house/i/content_img_logo@2x.png") center no-repeat;
+  background-size: 100%;
+}
+.about-bottom {
+  height: 120px;
+}
+.about-bottom .about-bottom-top {
+  height: 50px;
+  margin-top: 10px;
+  display: flex;
+  background: #fff;
+  line-height: 50px;
+  position: relative;
+}
+.about-bottom .about-bottom-top .set-contain-li-left .set-contain-ul-li-left {
+  margin-left: 10px;
+  font-size: 14px;
+}
+.about-bottom .about-bottom-top .set-contain-li-right {
+  flex: 1;
+  text-align: right;
+}
+.about-bottom .about-bottom-top .set-contain-li-right .set-contain-li-right-prayer {
+  margin-right: 40px;
+  color: #b7b7b7;
+  font-size: 12px;
+}
+.about-bottom .about-bottom-top .set-contain-li-right .set-contain-ul-li-shapes {
+  background: url("../img/house/i/login_right_icon@2x.png") center no-repeat;
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  margin-top: -15px;
+  top: 50%;
+  right: 1%;
+  background-size: 30%;
+}
+.about-end-contain .about-end-bottom {
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -50px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 50px;
+  color: #878788;
+}
+.top {
+  color: #000;
+}
