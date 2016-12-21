@@ -195,6 +195,9 @@ startTimeout();
 		$(".first_option").removeClass("first_option_active")
 		$(".position_box").removeClass("position_box_active")
 	})
+	$(".search_box").on("tap",function(){
+		window.location.href="./search.html"
+	})
 
 })
 

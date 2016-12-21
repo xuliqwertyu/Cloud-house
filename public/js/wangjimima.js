@@ -16,7 +16,7 @@ $(function(){
 $(".header_left").on("tap",function(){
 	window.location.href="./login.html"
 })
-$("body").on("swipeLeft",function(){
+$("body").on("swipeRight",function(){
 	window.location.href="./login.html"
 })
 

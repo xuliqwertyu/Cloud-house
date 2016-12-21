@@ -15,7 +15,7 @@ var xia_ul=document.getElementById("xia_ul")
 		}
 
 		}
-$("body").on("swipeLeft",function(){
+$("body").on("swipeRight",function(){
 	window.location.href="./login.html"
 })
 $(".header_left").on("tap",function(){
@@ -41,6 +41,11 @@ $(".srk_input").on("blur",function(){
 	}else{
 		$(".btn_zhuce").removeClass('btn_active')
 		$(".btn_zhuce").attr("disabled","disabled")
+	}
+})
+$(".btn_zhuce").on("tap",function(){
+	if($(this).hasClass("btn_active")){
+		window.location.href="./dlswanshan.html"
 	}
 })
 })

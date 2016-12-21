@@ -8,9 +8,7 @@ $("#xinxi").on("tap",function(){
 	window.location.href="./xinxi_xiaoxi.html"
 })
 //跳转至我
-$("#wo").on("tap",function(){
-	window.location.href="./me.html"
-})
+
 //跳转至首页
 $("#shouye").on("tap",function(){
 	window.location.href="./first.html"
@@ -37,4 +35,19 @@ $(".fabu_xuqiu").on("tap",function(){
 $(".fabu_fangyuan").on("tap",function(){
 	window.location.href="./fabufangyuan.html"
 })
+
+if(onoff==true){
+	$("#wo").on("tap",function(){
+	window.location.href="./me_denglu.html"
+	$(".all_text").show()
+})
+}else{
+$("#wo").on("tap",function(){
+	window.location.href="./me.html"
+	 onoff=false
+})
+	$(".all_text").hide()	
+}
+
+
 })

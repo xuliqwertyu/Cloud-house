@@ -2,7 +2,7 @@ $(function(){
 $(".header_left").on("tap",function(){
 	window.location.href="./me.html"
 })
-$("body").on("swipeLeft",function(){
+$("body").on("swipeRight",function(){
 	window.location.href="./me.html"
 })
 var onoff=false

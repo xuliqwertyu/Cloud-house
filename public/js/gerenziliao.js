@@ -1,0 +1,11 @@
+$(function(){
+	$(".ps_edit").on("tap",function(){
+		window.location.href="./bianjigerenziliao.html"
+	})
+	$("body").on("swipeRight",function(){
+		window.history.back()
+	})
+	$(".header_left").on("tap",function(){
+		window.history.back()
+	})
+})
